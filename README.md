@@ -9,3 +9,20 @@ The seven variables of the life support system represent the real-time monitorin
 
 During the experiment, the JiaoLong DSMS gradually descended from the shore to around 3000 meters. It is worth noting that the used labels are derived from the records of real voyage logs obtained in JiaoLong DSMS. The total number of samples is $64138$. 
 Around $12$ samples of the data stream (0.02\%) are randomly selected as the initial labeled data to pre-train the model. Considering the simplicity of the original data, we add some Gaussian noise to change the underlying distributions of the data to enlarge the influence of concept drift. The overall imbalance ratio of safe level and unsafe level is around $5.086: 1$. 
+
+## Citation
+
+```
+Z. Liu, Y. Zhang, Z. Ding, and X. He, “An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments,” IEEE Transactions on Neural Networks and Learning Systems, 2022, doi: 10.1109/TNNLS.2022.3222265.
+```
+
+```
+@article{liu2022OABL,
+  title={An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments},
+  author={Liu, Zeyi and Zhang, Yi and Ding, Zhongjun and He, Xiao},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022},
+  doi={10.1109/TNNLS.2022.3222265},
+  publisher={IEEE}
+}
+```
