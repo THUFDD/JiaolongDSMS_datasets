@@ -3,7 +3,7 @@
 </div>
 
 ### Background：
-The data was collected and provided by the National Deep Sea Center in Qingdao, Shandong, China. The initial data is collected in the exploration task for the JiaoLong Deep-sea Manned Submersible on March 19-th, 2017. The form of data is the multi-variate time series with around 24 features. For some reasons, we hide the measurement units of all the variables. We aim to provide a benchmark dataset of real-time safety assessment (RTSA) methods for dynamic systems, enabling researchers to conduct their research effectively.
+The data was collected and provided by the National Deep Sea Center in Qingdao, Shandong, China. The initial data is collected in the exploration task for the JiaoLong Deep-sea Manned Submersible on March 19-th, 2017. The form of data is the multi-variate time series with around 24 features. We hide the measurement units of all the variables. We aim to provide a benchmark dataset of real-time safety assessment (RTSA) methods for dynamic systems, enabling researchers to conduct their research effectively.
 
 ### Variable Description: 
 
