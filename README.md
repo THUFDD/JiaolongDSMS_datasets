@@ -1,22 +1,56 @@
-# JiaolongDSMS_datasets
+### Background：
+The data used in this paper was collected and provided by the National Deep Sea Center in Qingdao, Shandong, China. The initial data is collected in the exploration task for the JiaoLong Deep-sea Manned Submersible on March 19-th, 2017. The form of data is the multi-variate time series with around 24 features. For some reasons, we hide the measurement units of all the variables. We aim to provide a benchmark dataset of real-time safety assessment (RTSA) methods for dynamic systems, enabling researchers to conduct their research effectively.
 
-## Jiaolong Deep-Sea Manned Submersible datasets (Life Support System)
+Here are the detailed explanations.
 
-The data used in this paper was collected and provided from the National Deep Sea Center in Qingdao, Shandong, China. The initial data is collected in the exploration task for the JiaoLong DSMS on March $19^{th}$, 2017. 
-The form of data is the multi-variate time series with around 11 features. The sub-system of JiaoLong DSMS such as life support system is selected to analyze. Our purpose is to assess the safety level, such as safe level and unsafe level, for the tested data stream. 
+### Variable Description: 
+- Roll Angle of Motion Sensor: 运动传感器横倾角
+- Pitch Angle of Motion Sensor: 运动传感器纵倾角
+- Yaw Angle of Motion Sensor: 运动传感器航向角
+- Velocity in Bow Direction of Motion Sensor: 运动传感器艏向速度
+- Roll Velocity of Motion Sensor: 运动传感器横摇速度
+- Pitch Velocity of Motion Sensor: 运动传感器纵倾速度
+- Salinity: 盐度
+- Temperature: 温度
+- Depth: 深度
+- Velocity: 速度
+- Thrust in X-axis: x轴向推力 
+- Thrust in Y-axis: y轴向推力 
+- Thrust in Z-axis: z轴向推力
+- Moment about X-axis: 绕X轴力矩
+- Moment about Y-axis: 绕Y轴力矩
+- Moment about Z-axis: 绕Z轴力矩
+- Oxygen Concentration: 氧气浓度
+- Carbon Dioxide Concentration: 二氧化碳浓度
+- Cabin Pressure: 舱内压力
+- Cabin Temperature: 舱内温度
+- Cabin Humidity: 舱内湿度
+- Emergency Hydraulic Source Pressure: 应急液压源压力
+- Backup 2: 备份2
+- Backup 3: 备份3
 
-The seven variables of the life support system represent the real-time monitoring indicators, including oxygen ($O_2$) concentration in the cabin, carbon dioxide ($CO_2$) concentration in the cabin, cabin pressure (Pa), cabin humidity, and cabin temperature ($^\circ$C). In addition, backup 2 and backup 3 are also considered, representing the oxygen concentration of another set of oxygen sensors and the carbon dioxide concentration of another set of carbon dioxide sensors, respectively. Two settings of oxygen and carbon dioxide sensors are set up in the cabin as a backup to monitor the oxygen and carbon dioxide concentration at any time.  Hence, the monitoring data of backup 2 and backup 3 are the values of another set of oxygen and carbon dioxide sensors. Moreover, four settings of other external monitoring variables containing salinity, temperature, depth, and speed are selected. The monitoring data is sourced from the value of the conductivity temperature depth (CTD) sensor installed outside the JiaoLong DSMS, which monitors the real-time seawater salinity, temperature, depth, and the speed of ascending and descending.
+### Label Description:
+- **Level I**: DSMS is currently in *safety* state. There are no safety risks from the external environment and the system is in a healthy state internally.
+- **Level II**: DSMS is currently operating in a *mildly unsafe* state. There may be safety risks in the external environment or controllable abnormalities within the system.
+- **Level III**: DSMS is currently operating in an *unsafe* state. There are certain safety risks in the external environment, or there are dangerous abnormalities inside the system.
 
-During the experiment, the JiaoLong DSMS gradually descended from the shore to around 3000 meters. It is worth noting that the used labels are derived from the records of real voyage logs obtained in JiaoLong DSMS. The total number of samples is $64138$. 
+### Dataset Description:
+| Number of monitored variables  | 24     |
+|:-------------------------------:|:----:|
+| Number of safety levels         | 3      |
+| Number of time points          | 30000 |
+| Imbalance ratio (I: II: III)   | 10512 : 10985 : 8503 |
 
+### Visualization:
+[label.pdf](https://github.com/THUFDD/JiaolongDSMS_datasets/files/13189843/label.pdf)
+[variable.pdf](https://github.com/THUFDD/JiaolongDSMS_datasets/files/13189847/variable.pdf)
 
-## Citation
-
-```
+### Citation
+`
 Z. Liu, Y. Zhang, Z. Ding, and X. He, “An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments,” IEEE Transactions on Neural Networks and Learning Systems, 2022, doi: 10.1109/TNNLS.2022.3222265.
-```
+`
 
-```
+`
 @article{liu2022OABL,
   title={An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments},
   author={Liu, Zeyi and Zhang, Yi and Ding, Zhongjun and He, Xiao},
@@ -25,4 +59,9 @@ Z. Liu, Y. Zhang, Z. Ding, and X. He, “An Online Active Broad Learning Approac
   doi={10.1109/TNNLS.2022.3222265},
   publisher={IEEE}
 }
-```
+`
+
+### Notes: 
+- We are from the research group of THU-FDD, Department of Automation, Tsinghua University. For more information, please feel free to contact us! Emails: liuzy21@mails.tsinghua.edu.cn, hsq23@mails.tsinghua.edu.cn.
+
+- We have updated a newer version of the dataset (Version 2) on October 27, 2023. Compared with the previous version (Version 1), it contains more monitoring variables and more detailed descriptions.
