@@ -1,5 +1,7 @@
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/jiaolong-1.png?raw=true" width="50%/></div>
+
 ### Background：
-The data used in this paper was collected and provided by the National Deep Sea Center in Qingdao, Shandong, China. The initial data is collected in the exploration task for the JiaoLong Deep-sea Manned Submersible on March 19-th, 2017. The form of data is the multi-variate time series with around 24 features. For some reasons, we hide the measurement units of all the variables. We aim to provide a benchmark dataset of real-time safety assessment (RTSA) methods for dynamic systems, enabling researchers to conduct their research effectively.
+The data was collected and provided by the National Deep Sea Center in Qingdao, Shandong, China. The initial data is collected in the exploration task for the JiaoLong Deep-sea Manned Submersible on March 19-th, 2017. The form of data is the multi-variate time series with around 24 features. For some reasons, we hide the measurement units of all the variables. We aim to provide a benchmark dataset of real-time safety assessment (RTSA) methods for dynamic systems, enabling researchers to conduct their research effectively.
 
 Here are the detailed explanations.
 
@@ -42,8 +44,10 @@ Here are the detailed explanations.
 | Imbalance ratio (I: II: III)   | 10512 : 10985 : 8503 |
 
 ### Visualization:
-[label.pdf](https://github.com/THUFDD/JiaolongDSMS_datasets/files/13189843/label.pdf)
-[variable.pdf](https://github.com/THUFDD/JiaolongDSMS_datasets/files/13189847/variable.pdf)
+
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/variable-1.png?raw=true"/></div>
+
+<div align=center><img src="https://github.com/songqiaohu/pictureandgif/blob/main/label-1.png?raw=true"/></div>
 
 ### Citation
 ```
