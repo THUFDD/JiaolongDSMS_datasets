@@ -75,6 +75,15 @@ Z. Liu, Y. Zhang, Z. Ding, and X. He, “An Online Active Broad Learning Approac
   doi={10.1109/TNNLS.2022.3222265},
   publisher={IEEE}
 }
+@INPROCEEDINGS{10295743,
+  author={Liu, Zeyi and Hu, Songqiao and He, Xiao},
+  booktitle={2023 CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)}, 
+  title={Real-time Safety Assessment of Dynamic Systems in Non-stationary Environments: A Review of Methods and Techniques}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/SAFEPROCESS58597.2023.10295743}}
 ```
 
 ### Notes: 
