@@ -62,9 +62,6 @@ The data (Jiaolong_DSMS_V2.csv) was collected and provided by the National Deep 
 </div>
 
 ### Citation
-```
-Z. Liu, Y. Zhang, Z. Ding, and X. He, “An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments,” IEEE Transactions on Neural Networks and Learning Systems, 2022, doi: 10.1109/TNNLS.2022.3222265.
-```
 
 ```
 @article{liu2022OABL,
